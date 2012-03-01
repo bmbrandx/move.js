@@ -273,7 +273,7 @@
   Move.prototype.translate3d = 
   Move.prototype.to = function(x, y, z){
     y = y || 0;
-    return this.transform('translate('
+    return this.transform('translate3d('
       + x + 'px, '
       + y + 'px, '
       + z + 'px)');
